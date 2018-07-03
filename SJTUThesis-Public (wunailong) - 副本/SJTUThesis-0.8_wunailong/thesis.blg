@@ -1,0 +1,33 @@
+[1] Config.pm:354> INFO - This is Biber 2.7
+[2] Config.pm:357> INFO - Logfile is 'thesis.blg'
+[182] biber-MSWIN32:303> INFO - === 
+[310] Biber.pm:359> INFO - Reading 'thesis.bcf'
+[657] Biber.pm:835> INFO - Found 184 citekeys in bib section 0
+[685] Biber.pm:3670> INFO - Processing section 0
+[717] Biber.pm:3840> INFO - Looking for bibtex format file 'bib/thesis.bib' for section 0
+[1092] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[1138] bibtex.pm:1292> INFO - Found BibTeX data source 'bib/thesis.bib'
+[1265] Utils.pm:164> WARN - month field 'May' in entry 'yang2014modeling' is not an integer - this will probably not sort properly.
+[1529] Utils.pm:164> WARN - month field 'Dec' in entry 'deng2009system' is not an integer - this will probably not sort properly.
+[2203] Utils.pm:164> WARN - Entry 'DNVStard' (bib/thesis.bib): Invalid format 'DNV-RP-H103' of date field 'date' - ignoring
+[2239] Utils.pm:164> WARN - BibTeX subsystem: C:\Users\ADMINI~1\AppData\Local\Temp\2LEd13feVO\thesis.bib_6420.utf8, line 5, warning: 7 characters of junk seen at toplevel
+[2239] Utils.pm:164> WARN - BibTeX subsystem: C:\Users\ADMINI~1\AppData\Local\Temp\2LEd13feVO\thesis.bib_6420.utf8, line 159, warning: 68 characters of junk seen at toplevel
+[2239] Utils.pm:164> WARN - BibTeX subsystem: C:\Users\ADMINI~1\AppData\Local\Temp\2LEd13feVO\thesis.bib_6420.utf8, line 314, warning: 84 characters of junk seen at toplevel
+[2239] Utils.pm:164> WARN - BibTeX subsystem: C:\Users\ADMINI~1\AppData\Local\Temp\2LEd13feVO\thesis.bib_6420.utf8, line 516, warning: 81 characters of junk seen at toplevel
+[2239] Utils.pm:164> WARN - BibTeX subsystem: C:\Users\ADMINI~1\AppData\Local\Temp\2LEd13feVO\thesis.bib_6420.utf8, line 696, warning: 81 characters of junk seen at toplevel
+[2240] Utils.pm:164> WARN - BibTeX subsystem: C:\Users\ADMINI~1\AppData\Local\Temp\2LEd13feVO\thesis.bib_6420.utf8, line 984, warning: 100 characters of junk seen at toplevel
+[2240] Utils.pm:164> WARN - BibTeX subsystem: C:\Users\ADMINI~1\AppData\Local\Temp\2LEd13feVO\thesis.bib_6420.utf8, line 1412, warning: 8 characters of junk seen at toplevel
+[2240] Utils.pm:164> WARN - BibTeX subsystem: C:\Users\ADMINI~1\AppData\Local\Temp\2LEd13feVO\thesis.bib_6420.utf8, line 1593, warning: 201 characters of junk seen at toplevel
+[2240] Utils.pm:164> WARN - BibTeX subsystem: C:\Users\ADMINI~1\AppData\Local\Temp\2LEd13feVO\thesis.bib_6420.utf8, line 1738, warning: 72 characters of junk seen at toplevel
+[2240] Utils.pm:164> WARN - BibTeX subsystem: C:\Users\ADMINI~1\AppData\Local\Temp\2LEd13feVO\thesis.bib_6420.utf8, line 1798, warning: 65 characters of junk seen at toplevel
+[2240] Utils.pm:164> WARN - BibTeX subsystem: C:\Users\ADMINI~1\AppData\Local\Temp\2LEd13feVO\thesis.bib_6420.utf8, line 1956, warning: 56 characters of junk seen at toplevel
+[2241] Utils.pm:164> WARN - BibTeX subsystem: C:\Users\ADMINI~1\AppData\Local\Temp\2LEd13feVO\thesis.bib_6420.utf8, line 2045, warning: 90 characters of junk seen at toplevel
+[2241] Utils.pm:164> WARN - BibTeX subsystem: C:\Users\ADMINI~1\AppData\Local\Temp\2LEd13feVO\thesis.bib_6420.utf8, line 2080, warning: 9 characters of junk seen at toplevel
+[2241] Utils.pm:164> WARN - BibTeX subsystem: C:\Users\ADMINI~1\AppData\Local\Temp\2LEd13feVO\thesis.bib_6420.utf8, line 2105, warning: 59 characters of junk seen at toplevel
+[2457] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2457] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2458] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
+[2458] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[2890] bbl.pm:608> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[3007] bbl.pm:712> INFO - Output to thesis.bbl
+[3008] Biber.pm:109> INFO - WARNINGS: 17

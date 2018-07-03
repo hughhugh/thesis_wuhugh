@@ -1,0 +1,224 @@
+\let \CTEX@spaceChar \relax 
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{摘要}{i}{chapter*.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Abstract}{iii}{chapter*.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{插图索引}{xiii}{chapter*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{表格索引}{xv}{chapter*.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}绪论}{1}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}研究背景及意义 }{1}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}水下机器人系统建模研究现状 }{4}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.1}水下机器人的动力学运动学建模 }{5}{subsection.1.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.2}数据驱动的系统建模 }{6}{subsection.1.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}非线性自适应控制现状 与水下机器人控制特性 }{7}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.1}鲁棒自适应控制的研究进展 }{8}{subsection.1.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.2}驱动器饱和补偿问题的研究进展 }{10}{subsection.1.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}本文主要研究内容 与拟解决的关键问题 }{11}{section.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.1}本文的主要研究内容 }{11}{subsection.1.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.2}拟解决的关键性问题 }{13}{subsection.1.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.3}本文的研究路线图 }{13}{subsection.1.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.5}本章小结 }{15}{section.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}水下机器人系统模型 }{17}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}引言}{17}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}运动系统数学描述 }{18}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}水下机器人的运动学 }{19}{subsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}水下机器人的动力学模型 }{21}{subsection.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.2.1}航行器的刚体动力学 }{21}{subsubsection.2.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.2.2}航行器作用力 }{24}{subsubsection.2.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.2.3}6自由度水下机器人模型 }{29}{subsubsection.2.2.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.3}不同类型的水下机器人模型 }{29}{subsection.2.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.3.1}全驱动水下机器人的数学模型 }{30}{subsubsection.2.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.3.2}欠驱动水下机器人的数学模型 }{34}{subsubsection.2.2.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}推进器布置与推力控制向量 }{37}{section.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}推进器布置 }{37}{subsection.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.1.1}常见的布置 }{37}{subsubsection.2.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.1.2}推力分配模型 }{39}{subsubsection.2.3.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}推力控制向量 }{41}{subsection.2.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.2.1}定义}{41}{subsubsection.2.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.2.2}PID控制应用实例 }{42}{subsubsection.2.3.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}本章小结 }{43}{section.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}水下机器人数学模型探索与系数辨识 }{45}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}引言}{45}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}水下机器人模型探索与辨识 }{46}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}系统模型的结构、参数与系统建模}{46}{subsection.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}基于Levenberg-Marquardt方法的参数辨识 }{48}{subsection.3.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.3}基于遗传算法的参数辨识 }{49}{subsection.3.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.4}基于符号回归技术的水下机器人模型探索 }{49}{subsection.3.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.4.1}符号回归 }{49}{subsubsection.3.2.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.4.2}遗传编程 }{50}{subsubsection.3.2.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.5}结果与分析 }{53}{subsection.3.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}水流环境识别 }{62}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.1}鱼类侧线感知系统 }{63}{subsection.3.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.2}基于支持向量机的水下机器人水流环境辨识 }{64}{subsection.3.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.3.2.1}流体控制方程 }{64}{subsubsection.3.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.3.2.2} 水流识别方法 }{66}{subsubsection.3.3.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.3}结果与分析 }{69}{subsection.3.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}本章小结 }{77}{section.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}控制导向的水下机器人模型建立}{79}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}引言 }{79}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}非初等几何外形的水下机器人模型建立}{80}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}经验法}{80}{subsection.4.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.1.1}质量项}{80}{subsubsection.4.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.1.2}恢复力}{81}{subsubsection.4.2.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.1.3}附加质量}{82}{subsubsection.4.2.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.1.4}阻尼力}{86}{subsubsection.4.2.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.2}基于CFD的数值计算法}{89}{subsection.4.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.2.1}附加质量}{90}{subsubsection.4.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.2.2}阻尼力}{92}{subsubsection.4.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.3}结果与分析 }{96}{subsection.4.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}基于泰勒公式简化的水下机器人模型建立 }{103}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}本章小结 }{104}{section.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}水下机器人的鲁棒自适应控制}{105}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}引言 }{105}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}水下机器人的系统控制特性 }{106}{section.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.1}水下机器人的系统非线性 }{107}{subsection.5.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.2}水下机器人模型不确定性 }{107}{subsection.5.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}鲁棒自适应控制框架 }{108}{section.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.1}Lyapunov稳定性 }{108}{subsection.5.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.2}状态模型参考自适应控制 }{110}{subsection.5.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.3}自适应控制的不稳定问题 }{114}{subsection.5.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.3.3.1}参数漂移}{114}{subsubsection.5.3.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.3.3.2}未建模动态不稳定性 }{115}{subsubsection.5.3.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}鲁棒模型参考自适应控制 }{115}{section.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.1}基于射影理论的模型参考自适应控制 }{115}{subsection.5.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.4.1.1}射影算子}{115}{subsubsection.5.4.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.4.1.2}基于射影算子的MRAC }{120}{subsubsection.5.4.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.2}$L_{1}$自适应控制 }{122}{subsection.5.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.3}水下机器人俯仰控制实验 }{123}{subsection.5.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.4.3.1}线性系统模型俯仰控制实验 }{124}{subsubsection.5.4.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.4.3.2}6自由度非线性系统模型 俯仰控制实验 }{125}{subsubsection.5.4.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.5}本章小结 }{134}{section.5.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}水下机器人的驱动补偿控制 }{135}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}引言 }{135}{section.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}水下机器人的驱动器非线性 }{136}{section.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.1}输入阈值 }{136}{subsection.6.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.2}死区 }{137}{subsection.6.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.3}时间延迟 }{138}{subsection.6.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}现代补偿器}{138}{section.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.1}基本的抗饱和框架 }{138}{subsection.6.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.2}基于Riccati方程的抗饱和补偿器 }{139}{subsection.6.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.4}带有驱动补偿的鲁棒自适应控制 }{143}{section.6.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.4.1}带有补偿器的模型参考自适应控制 }{143}{subsection.6.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.4.2}带有补偿器的$L_{1}$自适应控制 }{143}{subsection.6.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.4.3}姿态控制实验 }{146}{subsection.6.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.4.3.1}带有抗饱和补偿的鲁棒模型参考自适应控制 }{146}{subsubsection.6.4.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.4.3.2}带有抗饱和补偿的$L_1$自适应控制}{152}{subsubsection.6.4.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.5}本章小结 }{162}{section.6.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {第七章\hspace {.3em}}总结与展望}{163}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}全文总结}{163}{section.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}论文创新点}{165}{section.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.3}展望}{166}{section.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}有关数学基础 }{169}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{参考文献}{171}{appendix*.96}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{致\nobreakspace {}\nobreakspace {}\nobreakspace {}\nobreakspace {}谢}{187}{appendix*.97}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{攻读学位期间发表的学术论文}{189}{appendix*.98}

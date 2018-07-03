@@ -1,0 +1,9 @@
+PWD E:/¿ªÌâ/phd thesis paper/SJTUThesis-0.8_wunailong/tex
+INPUT c:/texlive/2017/texmf.cnf
+INPUT c:/texlive/2017/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT ./pub.tex
+OUTPUT pub.log
+INPUT c:/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
+INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm

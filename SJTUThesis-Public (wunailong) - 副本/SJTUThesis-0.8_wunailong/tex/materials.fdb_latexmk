@@ -1,0 +1,22 @@
+# Fdb version 3
+["xdvipdfmx"] 1500800346 "materials.xdv" "materials.pdf" "materials" 1500800388
+  "materials.xdv" 1500800346 32532 5d225b8d6f75b22038ff695f23cdb9f6 "xelatex"
+  (generated)
+  "materials.pdf"
+["xelatex"] 1500800341 "materials.tex" "materials.xdv" "materials" 1500800388
+  "c:/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1498082522 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
+  "c:/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1498079627 1004 54797486969f23fa377b128694d548df ""
+  "c:/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty" 1498079644 2210 5c54ab129b848a5071554186d0168766 ""
+  "c:/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty" 1498079644 4160 c115536cf8d4ff25aa8c1c9bc4ecb79a ""
+  "c:/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty" 1498079644 84329 81aa65c5042562f79cb421feff9b8bdc ""
+  "c:/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty" 1498079644 4115 318a66090112f3aa3f415aeb6fe8540f ""
+  "c:/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty" 1498079644 2431 fe3078ec12fc30287f568596f8e0b948 ""
+  "c:/texlive/2017/texmf-dist/tex/latex/base/article.cls" 1498083688 19821 310da678527a7dfe2a02c88af38079b7 ""
+  "c:/texlive/2017/texmf-dist/tex/latex/base/size10.clo" 1498083688 8292 e897c12e1e886ce77fe26afc5d470886 ""
+  "c:/texlive/2017/texmf-var/web2c/xetex/xelatex.fmt" 1498088898 3678315 ea0bd74c541f695ea67ab907e801c979 ""
+  "materials.aux" 1500800346 8 a94a2480d3289e625eea47cd1b285758 ""
+  "materials.tex" 1500800375 3665 302eb6d2942d64be86e6f080d06be747 ""
+  (generated)
+  "materials.log"
+  "materials.aux"
+  "materials.xdv"
