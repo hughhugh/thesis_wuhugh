@@ -1,0 +1,46 @@
+
+\documentclass{article}
+\usepackage{amsmath}
+
+\newcommand\bu{\bm{u}}
+\newcommand\bx{\bm{x}}
+
+\begin{document}
+Controllability vs. underactuated
+
+Analysis of the controllability of both the Acrobot and Cart-Pole systems reveals that the linearized dynamics about the upright are, in fact, controllable. This implies that the linearized system, if started away from the zero state, can be returned to the zero state in finite time. This is potentially surprising - after all the systems are underactuated. For example, it is interesting and surprising that the Acrobot can balance itself in the upright position without having a shoulder motor.
+
+The controllability of these model systems demonstrates an extremely important, point: An underactuated system is not necessarily an uncontrollable system. Underactuated systems cannot follow arbitrary trajectories, but that does not imply that they cannot arrive at arbitrary points in state space. However, the trajectory required to place the system into a particular state may be arbitrarily complex.
+
+The controllability analysis presented here is for linear time-invariant (LTI) systems. A comparable analysis exists for linear time-varying (LTV) systems. We will even see extensions to nonlinear systems; although it will often be referred to by the synonym of "reachability" analysis.
+
+
+LQR feedback 
+
+Controllability tells us that a trajectory to the fixed point exists, but does not tell us which one we should take or what control inputs cause it to occur. Why not? There are potentially infinitely many solutions. We have to pick one.
+
+The tools for controller design in linear systems are very advanced. In particular, as we describe in the linear optimal control chapter, one can easily design an optimal feedback controller for a regulation task like balancing, so long as we are willing to linearize the system around the operating point and define optimality in terms of a quadratic cost function:
+
+
+\begin{equation}
+ J(\bx_0) =
+\int_0^\infty \left[ \bx^T(t) {\bm Q} \bx(t) + \bu^T(t) {\bm R} \bu(t) \right]dt,
+\quad \bx(0)=\bx_0, {\bm Q}={\bm Q}^T>0, {\bm R}={\bm R}^T>0 
+\end{equation}
+
+The linear feedback matrix ${\bm K}$ used as
+
+\begin{equation}
+ \bu(t) = - {\bm K}\bx(t)
+\end{equation}
+
+is the so-called optimal linear quadratic regulator (LQR). Even without understanding the detailed derivation, we can quickly become practitioners of LQR. Conveniently, Matlab has a function, K = lqr(A,B,Q,R). Therefore, to use LQR, one simply needs to obtain the linearized system dynamics and to define the symmetric positive-definite cost matrices, 4 and ${\bm{R}}$. In their most common form, ${\bm{Q}}$ and ${\bm{R}}$ are positive diagonal matrices, where the entries $Q_{ii}$ penalize the relative errors in state variable $x_i$ compared to the other state variables, and the entries $R_{ii}$ penalize actions in $u_i$.
+
+
+
+Note that LQR, although it is optimal for the linearized system, is not necessarily the best linear control solution for maximizing basin of attraction of the fixed-point. The theory of robust control(e.g., [25]), which explicitly takes into account the differences between the linearized model and the nonlinear model, will produce controllers which outperform our LQR solution in this regard.
+
+In the introductory chapters, we made the point that the underactuated systems are not feedback linearizable. At least not completely. Although we cannot linearize the full dynamics of the system, it is still possible to linearize a portion of the system dynamics. The technique is called partial feedback linearization.
+\end{document}
+
+

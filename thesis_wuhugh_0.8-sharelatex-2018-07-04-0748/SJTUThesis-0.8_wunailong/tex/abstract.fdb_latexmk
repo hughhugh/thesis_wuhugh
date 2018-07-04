@@ -1,0 +1,12 @@
+# Fdb version 3
+["xdvipdfmx"] 0 "abstract.xdv" "abstract.pdf" "abstract" 0
+  "abstract.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "abstract.pdf"
+["xelatex"] 1499070869 "abstract.tex" "abstract.xdv" "abstract" 1499070872
+  "abstract.aux" 1499070768 4424 6904ee6ff4c3dd2a2693839911d5c6fa ""
+  "abstract.tex" 1499070866 6324 a08ba9b948849199d2339f6436a9471a ""
+  "c:/texlive/2017/texmf-var/web2c/xetex/xelatex.fmt" 1498088898 3678315 ea0bd74c541f695ea67ab907e801c979 ""
+  (generated)
+  "abstract.xdv"
+  "abstract.log"
