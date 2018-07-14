@@ -31,7 +31,7 @@
 
 \subsection{系统模型的结构、参数与系统建模}
 
-在本部分，为了便于后面的系统建模，需要对一个动力学系统的建模问题从黑盒子的角度进行最初的研究。一般要研究的系统会有状态量和输出、输入量。要确定一个系统模型表达，需要收集时间序列的状态数据（包括状态量及导数量）。将得到的采样数据写成如下两个矩阵\cite{brunton2016discovering}：
+在本部分，为了便于后面的系统建模，需要对一个动力学系统的建模问题从黑盒子的角度进行最初的研究。一般要研究的系统会有状态量和输出、输入量。要确定一个系统模型表达，需要收集时间序列的状态数据$\bm{X}$（包括状态量及导数量）。将得到的采样数据写成如下两个矩阵\cite{brunton2016discovering}：
 \begin{equation}
 \label{eq:chap3:1}
 \begin{aligned}
@@ -516,7 +516,7 @@ A. {线性判别分析}
 {m_k} &= \frac{1}{{{N_k}}}\sum\limits_{n \in {C_k}} {{x_n}}
 \end{aligned}
 \end{equation*}
-式中$N_k$ 是 $C_k$ 的模式数目，$x_n$ 是第 $n$ 种模式的观测向量。$K$是数据样本中的整体分类数。
+式中$N_k$ 是 $C_k$ 的模式数目，$x_n$ 是第 $n$ 种模式的观测向量。$K$是数据样本中的整体分类数，该数定义与所采集数据的水流方向有关，本文中为8。
 
 \begin{equation}
 {S_B} = \sum\limits_{k = 1}^K {{N_k}\left( {{m_k} - m} \right){{\left( {{m_k} - m} \right)}^T}}
@@ -756,7 +756,7 @@ F. {水下机器人运动学与水流预测模型的关系探讨   }
 
 \begin{algorithm}[!htbp]
 \centering
-\caption{侧线估计偏航角的框架流程 \protect \\\quad \quad Framework of how to measure yaw angle based on lateral line}
+\caption{侧线估计偏航角的流程 \protect \\\quad \quad Framework of how to measure yaw angle based on lateral line}
 \label{Algorithm:chap3:Framwork}
 % \bicaption[Algorithm:chap3:Framwork]{侧向估计偏航角的框架流程}{侧向估计偏航角的框架流程}{Fig.}{Framework of how to measure yaw angle based on lateral line}
 \begin{algorithmic}[1]
@@ -793,13 +793,13 @@ The yaw angle of vehicle, $\psi_t$;
 \end{algorithm}
 
 
-在水下机器人的载体坐标系内，水流的模型被进行了分类判定。这个分类模型可以用在两种情况下：一种是静水中，航行器航行时的水流感知，一种是航行器静止，有水流情况的识别。水流是可以在惯性坐标系下进行表示的，从方程\ref{eq:chap3:30}中可获得的水平面内的水流流向角度 $\psi$，方程表示如下：
+在水下机器人的体坐标系内，水流的模型被进行了分类判定。这个分类模型可以用在两种情况下：一种是静水中，航行器航行时的水流感知，一种是航行器静止，有水流情况的识别。水流是可以在惯性坐标系下进行表示的，从方程\ref{eq:chap3:30}中可获得的水平面内的水流流向角度 $\psi$，方程表示如下：
 
 \begin{equation}
 \label{eq:chap3:30}
 V_t = R\left (  \varphi,\theta,\psi \right )v_t
 \end{equation}
-其中， $R\left ( \varphi,\theta,\psi \right )$ 是体坐标系和惯性坐标系之间的变换矩阵，$v_t$ 是在时间$t$的体坐标系中使用LDA-SVM分类器预测的流速（包括方向和速率大小）。当机器人在水中导航时，环境是稳定的，就可以同时识别出水流。 当 $t=0$ 时，机器人第一次感知当前状态，$v_{t=0}$ 是已知的，因此，考虑到水下环境是稳定的假设，可以得到 $V_{t=0}$。 因此，机器人的姿态角可从算法\ref{Algorithm:chap3:Framwork}中计算出来。 然而，由于来流相对于航行器本体是会变化的，航行器的运动将导致不同的姿态角估计，主要是航向角 $\psi$。预测水流是在给定的表面平面运动条件下的，水流是不变的。基于这个参考量就可以通过坐标系转换运算来计算航行器在载体坐标系中的速度，这点和水里生活的盲鱼感知方向在本质上是统一的。
+其中， $R\left ( \varphi,\theta,\psi \right )$ 是体坐标系和惯性坐标系之间的变换矩阵，$v_t$ 是在时间$t$的体坐标系中使用LDA-SVM分类器预测的流速（包括方向和速率大小）。当机器人在水中导航时，环境是稳定的，就可以同时识别出水流。 当 $t=0$ 时，机器人第一次感知当前状态，$v_{t=0}$ 是已知的，因此，考虑到水下环境是稳定的假设，可以得到 $V_{t=0}$。 因此，机器人的姿态角可从算法\ref{Algorithm:chap3:Framwork}中计算出来。 然而，由于来流相对于航行器本体是会变化的，航行器的运动将导致不同的姿态角估计，主要是航向角 $\psi$。预测水流是在给定的表面平面运动条件下的，水流是不变的。基于这个参考量就可以通过坐标系转换运算来计算航行器在体坐标系中的速度，这点和水里生活的盲鱼感知方向在本质上是统一的。不足的是，本章提出的水流辨识方法基于流体仿真中获取的数据，因此水流中的噪声源影响性评估以及深度变化带来的影响需要进行系统的实验研究。
 
 
 \section{本章小结 }

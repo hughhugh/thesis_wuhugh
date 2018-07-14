@@ -291,9 +291,9 @@
       \begin{CJKfilltwosides}{4em}\heiti\sjtu@label@defenddate\end{CJKfilltwosides} 	 & \underline{\makebox[150pt]{\sjtu@value@defenddate}}
   \end{tabular}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%modified
-  \vskip \stretch{1}
+%  \vskip \stretch{1}
 %  \normalfont\sjtu@value@school \vskip 30pt
-  \normalfont\sjtu@value@institute \vskip 30pt
+%  \normalfont\sjtu@value@institute \vskip 30pt
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \end{center}
   \vskip \stretch{0.5}
